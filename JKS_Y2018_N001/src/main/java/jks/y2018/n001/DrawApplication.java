@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+//@RestController
 @SpringBootApplication
 public class DrawApplication {
 
@@ -13,8 +13,8 @@ public class DrawApplication {
 		SpringApplication.run(DrawApplication.class, args);
 	}
 	
-	@RequestMapping("/")
-	public String draw001() {
-		return "Yo~!!!";
-	}
+//	@RequestMapping("/")
+//	public String draw001() {
+//		return "Yo~!!!";
+//	}
 }
